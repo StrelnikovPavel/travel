@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-	<title>Путишествия</title>
+	<title>Оплата шаг-2</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<link rel="stylesheet" href="css/style.min.css?_v=20220223105300">
@@ -92,130 +92,63 @@
 				<div class="breadcrumbs__container">
 					<div class="breadcrumbs__list">
 						<li><a href="#" class="breadcrumbs__link">Личный кабинет</a></li>
-						<li><a href="#" class="breadcrumbs__link _active">Мои заметки</a></li>
+						<li><a href="#" class="breadcrumbs__link _active">Оплатить онлайн</a></li>
 					</div>
 				</div>
 			</div>
-			<section class="personalarea personalarea-travelers">
-				<div class="personalarea__container">
-					<h1 class="personalarea__title title">Личный кабинет</h1>
-					<div class="personalarea__body">
-						<div class="personalarea__sidebar sidebar-personalarea">
-							<button type="button" class="sidebar-personalarea__menu">Меню</button>
-							<button type="button" class="sidebar-personalarea__item">
-								<div class="sidebar-personalarea__icon _icon-person"></div>
-								<div class="sidebar-personalarea__label">Мои данные</div>
-							</button>
-							<button type="button" class="sidebar-personalarea__item">
-								<div class="sidebar-personalarea__icon _icon-travel"></div>
-								<div class="sidebar-personalarea__label">Мои путешествия <span class="sidebar-personalarea__quantity">(2)</span></div>
-							</button>
-							<button type="button" class="sidebar-personalarea__item">
-								<div class="sidebar-personalarea__icon _icon-note"></div>
-								<div class="sidebar-personalarea__label">Мои данные</div>
-							</button>
-							<button type="button" class="sidebar-personalarea__item _active">
-								<div class="sidebar-personalarea__icon _icon-peoples"></div>
-								<div class="sidebar-personalarea__label">Мои попутчики</div>
-							</button>
-						</div>
-						<form action="#" class="personalarea__form">
-							<div class="personalarea__info">
-								<div class="personalarea__data data-personalarea">
-									<div class="data-personalarea__row data-personalarea__row-travelers">
-										<div class="data-personalarea__info data-personalarea__info-travelers">
-											<div class="data-personalarea__input">
-												<div class="data-personalarea__label">Фамилия</div>
-												<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Шабашова" class="input">
-											</div>
-											<div class="data-personalarea__input">
-												<div class="data-personalarea__label">Имя</div>
-												<div class="data-personalarea__edit">
-													<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Юлия" class="input-edit">
-													<div class="data-personalarea__pen _icon-edit"></div>
-												</div>
-											</div>
-											<div class="data-personalarea__input">
-												<div class="data-personalarea__label">Телефон</div>
-												<input data-mask="+7,+7(___)___-__-__" type="tel" name="form[]" data-error="Ошибка" class="input input-tel">
-											</div>
-											<div class="data-personalarea__input">
-												<div class="data-personalarea__label">E-mail</div>
-												<input autocomplete="off" type="email" name="form[]" data-error="Ошибка" placeholder="yuliashabashova@gmail.com" class="input">
-											</div>
-											<div class="data-personalarea__block">
-												<select class="data-personalarea__place">
-													<option value="1" selected>Страна</option>
-													<option value="2">Страна</option>
-												</select>
-											</div>
-											<div class="data-personalarea__block">
-												<select class="data-personalarea__place">
-													<option value="1" selected>Город</option>
-													<option value="2">Страна</option>
-												</select>
-											</div>
-										</div>
+			<div class="pay">
+				<div class="pay__title title">Оплатить онлайн</div>
+				<div class="pay__steps">
+					<div class="pay__step _active">Шаг 1/3</div>
+					<span></span>
+					<div class="pay__step">Шаг 2/3</div>
+					<span></span>
+					<div class="pay__step">Шаг 3/3</div>
+				</div>
+				<div class="pay__status status">
+					<div class="status__container">
+						<div class="status__heading">Вы можете оплатить как физическое или юрилическое лицо. Выберите, пожалуйста, удобный для вас вариант:</div>
+						<form action="#" class="status__form">
+							<div class="status__who">
+								<div class="status__options options">
+									<div class="options__item">
+										<input id="formLeft" type="radio" name="status" class="options__input">
+										<label for="formLeft" class="options__label">Физическое лицо<span>Оплата онлайн банковской картой</span></label>
 									</div>
-								</div>
-								<div class="personalarea__passports passports-personalarea">
-									<div class="passports-personalarea__block">
-										<div class="passports-personalarea__caption">Паспорт гражданина</div>
-										<div class="passports-personalarea__subcaption">Основной разворот паспорта + прописка.
-										</div>
-										<div class="passports-personalarea__line">
-											<div class="passports-personalarea__column">
-												<div class="passports-personalarea__label">Серия:</div>
-												<div class="passports-personalarea__item">132 564 789</div>
-											</div>
-											<div class="passports-personalarea__column">
-												<div class="passports-personalarea__label">Номер:</div>
-												<div class="passports-personalarea__item">011233</div>
-											</div>
-											<div class="passports-personalarea__column">
-												<div class="passports-personalarea__label">Выдан:</div>
-												<div class="passports-personalarea__item">г.Москва</div>
-											</div>
-											<div class="passports-personalarea__column">
-												<div class="passports-personalarea__label">Дата выдачи:</div>
-												<div class="passports-personalarea__item">19.01.1994</div>
-											</div>
-										</div>
-										<button class="passports-personalarea__btn">Принято</button>
-									</div>
-									<div class="passports-personalarea__block">
-										<div class="passports-personalarea__caption">Загранпаспорт</div>
-										<div class="passports-personalarea__subcaption">Основной разворот</div>
-										<div class="passports-personalarea__line">
-											<div class="passports-personalarea__column">
-												<div class="passports-personalarea__label">Серия:</div>
-												<div class="passports-personalarea__item">--- --- ---</div>
-											</div>
-											<div class="passports-personalarea__column">
-												<div class="passports-personalarea__label">Номер:</div>
-												<div class="passports-personalarea__item">--- ---</div>
-											</div>
-											<div class="passports-personalarea__column">
-												<div class="passports-personalarea__label">Выдан:</div>
-												<div class="passports-personalarea__item">--- ---</div>
-											</div>
-											<div class="passports-personalarea__column">
-												<div class="passports-personalarea__label">Дата выдачи:</div>
-												<div class="passports-personalarea__item">---- ----</div>
-											</div>
-										</div>
-										<button type="button" class="passports-personalarea__loading btn-orange _icon-send">
-											<span class="_icon-file">Загрузить сканы</span>
-										</button>
+									<div class="options__item">
+										<input id="formRight" checked type="radio" name="status" class="options__input">
+										<label for="formRight" class="options__label">Юридическое лицо<span>Выставление счета онлайн </span></label>
 									</div>
 								</div>
 							</div>
-							<button type="button" class="personalarea__remove">Удалить попутчика</button>
-							<button type="submit" class="personalarea__add btn-orange btn _icon-send">Добавить попутчиков</button>
+							<div class="status__items">
+								<div class="status__input">
+									<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="ИНН" class="status-input">
+								</div>
+								<div class="status__input">
+									<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Название" class="status-input">
+								</div>
+								<div class="status__input">
+									<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="КПП" class="status-input">
+								</div>
+								<div class="status__input">
+									<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="ОГРН" class="status-input">
+								</div>
+								<div class="status__input">
+									<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Юридический адрес" class="status-input">
+								</div>
+							</div>
+							<a href="#" class="status__next btn btn-green _icon-send">Перейти к оплате</a>
+							<div class="status__grid">
+								<button type="submit" class="status__btn btn btn-orange__pay _icon-send">Скачать счет</button>
+								<button type="submit" class="status__btn btn btn-orange _icon-send">Отправить счет на почту</button>
+								<button type="button" class="status__copy">Скопировать ссылку на счет</button>
+							</div>
+							<a href="#" class="status__back btn btn-orange _icon-send">На шаг назад</a>
 						</form>
 					</div>
 				</div>
-			</section>
+			</div>
 		</main>
 		<footer class="footer">
 			<div class="footer__body">
