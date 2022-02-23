@@ -2,10 +2,10 @@
 <html lang="ru">
 
 <head>
-	<title>Главная</title>
+	<title>Имя фамилия</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css?_v=20220222100323">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220223081810">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +19,9 @@
 				<div class="header__content">
 					<div class="header__actions actions-header">
 						<button type="button" class="actions-header__user">
-							<div class="actions-header__icon _icon-user"></div>
+							<div class="actions-header__icon _icon-user">
+								<!-- <picture><source srcset="img/home/user.webp" type="image/webp"><img src="img/home/user.jpg?_v=1645597090093" alt=""></picture> -->
+							</div>
 							<div class="actions-header__name">Юлия</div>
 						</button>
 						<button type="button" class="actions-header__message _icon-message">
@@ -54,6 +56,32 @@
 								<li class="menu__item"><a href="" class="menu__link">Календарь</a></li>
 								<li class="menu__item"><a href="" class="menu__link">Запись из архива</a></li>
 							</ul>
+							<div class="menu-active">
+								<div class="menu-active__heading">
+									<div class="menu-active__label">Меню</div>
+									<button class="menu-active__close">
+										<img src="img/icons/close.svg?_v=1645597090093" alt="">
+									</button>
+								</div>
+								<div class="menu-active__items">
+									<a href="#" class="menu-active__link">
+										<div class="menu-active__icon _icon-person"></div>
+										<div class="menu-active__lead">Мои данные</div>
+									</a>
+									<a href="#" class="menu-active__link">
+										<div class="menu-active__icon _icon-travel"></div>
+										<div class="menu-active__lead">Мои путешествия <span>(2)</span></div>
+									</a>
+									<a href="#" class="menu-active__link">
+										<div class="menu-active__icon _icon-note"></div>
+										<div class="menu-active__lead">Мои заметки</div>
+									</a>
+									<a href="#" class="menu-active__link">
+										<div class="menu-active__icon _icon-peoples"></div>
+										<div class="menu-active__lead">Мои попутчики</div>
+									</a>
+								</div>
+							</div>
 						</nav>
 					</div>
 				</div>
@@ -64,7 +92,7 @@
 				<div class="breadcrumbs__container">
 					<div class="breadcrumbs__list">
 						<li><a href="#" class="breadcrumbs__link">Личный кабинет</a></li>
-						<li><a href="#" class="breadcrumbs__link _active">Группа путешествия “На шантарские острова”</a></li>
+						<li><a href="#" class="breadcrumbs__link _active">Имя Фамилия</a></li>
 					</div>
 				</div>
 			</div>
@@ -73,7 +101,7 @@
 					<h3 class="about__title title">Имя фамилия</h3>
 					<div class="about__info info-about">
 						<div class="info-about__img">
-							<picture><source srcset="img/home/user.webp" type="image/webp"><img src="img/home/user.jpg?_v=1645517003149" alt=""></picture>
+							<picture><source srcset="img/home/user.webp" type="image/webp"><img src="img/home/user.jpg?_v=1645597090093" alt=""></picture>
 						</div>
 						<div class="info-about__content">
 							<div class="info-about__status">
@@ -83,7 +111,7 @@
 							</div>
 							<div class="info-about__date">
 								<div class="info-about__icon">
-									<img src="img/icons/calendar.svg?_v=1645517003149" alt="">
+									<img src="img/icons/calendar.svg?_v=1645597090093" alt="">
 								</div>
 								<div class="info-about__lead">Дата вступления в клуб: <span> 21.01.2022</span></div>
 							</div>
@@ -132,7 +160,7 @@
 					<div class="notes__search search-post__search">
 						<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Поиск по заметкам" class="input-search">
 						<button type="button" class="search-post__btn">
-							<img src="img/icons/search.svg?_v=1645517003149" alt="">
+							<img src="img/icons/search.svg?_v=1645597090093" alt="">
 						</button>
 					</div>
 					<div class="notes__slider">
@@ -140,7 +168,7 @@
 							<div class="notes__slide slide-notes">
 								<div class="slide-notes__label">Заметка из путешествия:<span> Название путешествия</span></div>
 								<a href="#" class="slide-notes__img">
-									<picture><source srcset="img/home/note/01.webp" type="image/webp"><img src="img/home/note/01.jpg?_v=1645517003149" alt=""></picture>
+									<picture><source srcset="img/home/note/01.webp" type="image/webp"><img src="img/home/note/01.jpg?_v=1645597090093" alt=""></picture>
 								</a>
 								<div class="slide-notes__date _icon-calendar">19.01.2022</div>
 								<h5 class="slide-notes__title"><a href="#">Парусник «Надежда» завершил плавательную практику 2021 года</a></h5>
@@ -148,7 +176,7 @@
 							<div class="notes__slide slide-notes">
 								<div class="slide-notes__label">Заметка из путешествия:<span> Название путешествия</span></div>
 								<a href="#" class="slide-notes__img">
-									<picture><source srcset="img/home/note/01.webp" type="image/webp"><img src="img/home/note/01.jpg?_v=1645517003149" alt=""></picture>
+									<picture><source srcset="img/home/note/01.webp" type="image/webp"><img src="img/home/note/01.jpg?_v=1645597090093" alt=""></picture>
 								</a>
 								<div class="slide-notes__date _icon-calendar">19.01.2022</div>
 								<h5 class="slide-notes__title"><a href="#">Парусник «Надежда» завершил плавательную практику 2021 года</a></h5>
@@ -156,7 +184,7 @@
 							<div class="notes__slide slide-notes">
 								<div class="slide-notes__label">Заметка из путешествия:<span> Название путешествия</span></div>
 								<a href="#" class="slide-notes__img">
-									<picture><source srcset="img/home/note/01.webp" type="image/webp"><img src="img/home/note/01.jpg?_v=1645517003149" alt=""></picture>
+									<picture><source srcset="img/home/note/01.webp" type="image/webp"><img src="img/home/note/01.jpg?_v=1645597090093" alt=""></picture>
 								</a>
 								<div class="slide-notes__date _icon-calendar">19.01.2022</div>
 								<h5 class="slide-notes__title"><a href="#">Парусник «Надежда» завершил плавательную практику 2021 года</a></h5>
@@ -197,10 +225,10 @@
 						<a href="#" class="footer__logo _icon-logo"></a>
 						<div data-da=".footer__container,767.98,3" class="footer__apps">
 							<a href="#" class="footer__app">
-								<picture><source srcset="img/footer/google.webp" type="image/webp"><img src="img/footer/google.png?_v=1645517003149" alt="Google pay"></picture>
+								<picture><source srcset="img/footer/google.webp" type="image/webp"><img src="img/footer/google.png?_v=1645597090093" alt="Google pay"></picture>
 							</a>
 							<a href="#" class="footer__app">
-								<picture><source srcset="img/footer/appstore.webp" type="image/webp"><img src="img/footer/appstore.png?_v=1645517003149" alt="App store"></picture>
+								<picture><source srcset="img/footer/appstore.webp" type="image/webp"><img src="img/footer/appstore.png?_v=1645597090093" alt="App store"></picture>
 							</a>
 						</div>
 					</div>
@@ -228,13 +256,13 @@
 					</div>
 					<div class="footer__social">
 						<a href="#" class="footer__link">
-							<img src="img/footer/social/facebook.svg?_v=1645517003149" alt="Facebook">
+							<img src="img/footer/social/facebook.svg?_v=1645597090093" alt="Facebook">
 						</a>
 						<a href="#" class="footer__link">
-							<img src="img/footer/social/vk.svg?_v=1645517003149" alt="Vk">
+							<img src="img/footer/social/vk.svg?_v=1645597090093" alt="Vk">
 						</a>
 						<a href="#" class="footer__link">
-							<img src="img/footer/social/instagram.svg?_v=1645517003149" alt="Instagram">
+							<img src="img/footer/social/instagram.svg?_v=1645597090093" alt="Instagram">
 						</a>
 					</div>
 				</div>
@@ -256,7 +284,7 @@
 </div>
  -->
 
-	<script src="js/app.min.js?_v=20220222100323"></script>
+	<script src="js/app.min.js?_v=20220223081810"></script>
 </body>
 
 </html>
