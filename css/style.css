@@ -635,7 +635,7 @@ input::-webkit-inner-spin-button {
   opacity: 0;
 }
 .checkbox__input:checked + .checkbox__label:before {
-  background: url("../../../img/icons/agree.svg") center no-repeat;
+  background: url("../img/icons/agree.svg") center no-repeat;
 }
 .checkbox__label {
   cursor: pointer;
@@ -4323,8 +4323,8 @@ input::-webkit-inner-spin-button {
   }
 }
 .passports-personalarea__row-last {
-  margin-bottom: 0;
-  padding-bottom: 0;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
   border: none;
 }
 .passports-personalarea__line {
@@ -4410,7 +4410,6 @@ input::-webkit-inner-spin-button {
   justify-content: center;
   font-size: 1rem;
   color: #179778;
-  padding-top: 0.3125rem;
   transition: all 0.3s ease 0s;
   padding-bottom: 0.3125rem;
   text-align: center;
